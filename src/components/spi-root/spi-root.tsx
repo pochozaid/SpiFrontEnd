@@ -18,7 +18,6 @@ export class SpiRoot {
               <stencil-route url="/enseignant/details/:noEnseignant" component="spi-details" exact={true} />
               <stencil-route url="/enseignant/add" component="spi-add" exact={true} />
               <stencil-route url="/enseignant/search" component="spi-search" exact={true} />
-              <stencil-route url="/enseignant/searchbyname" component="spi-searchbyname" exact={true} />
             </stencil-route-switch>
           </stencil-router>
         </main>
