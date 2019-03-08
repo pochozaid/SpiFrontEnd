@@ -1,0 +1,31 @@
+
+@import "../../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../../node_modules/bulma/sass/elements/button.sass";
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../../node_modules/bulma/sass/layout/_all.sass";
+@import "../../../node_modules/bulma/sass/elements/_all.sass";
+@import "../../../node_modules/bulma/sass/components/_all.sass";
+@import "../../../node_modules/bulma/sass/grid/_all.sass";
+.navbar-brand .navbar-item {
+    font-size: 20px;
+}
+
+.navbar-menu .navbar-item {
+    font-size: 20px;
+}
+
+.navbar-menu .navbar-item svg  {
+    margin-right: .25em;
+    margin-left: 1em;
+}
+
+.navbar a {
+    color: inherit; /* blue colors for links too */
+  }
+.navbar a:hover {
+    color: $link;
+}
+.fas {
+    size: 20px;
+}
+
